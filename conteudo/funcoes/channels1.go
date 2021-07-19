@@ -12,6 +12,7 @@ func say(s string, done chan string) {
 		time.Sleep(100 * time.Millisecond)
 		fmt.Println(s)
 	}
+
 	done <- "Terminei"
 
 }

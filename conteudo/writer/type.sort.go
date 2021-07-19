@@ -18,6 +18,7 @@ import (
 	"sort"
 )
 
+//Para que um tipo struct possa utilizar a função Sort, é necessário que ele implemente as funções desta interface: Len, Less e Swap.
 type carro struct {
 	nome     string
 	potencia int

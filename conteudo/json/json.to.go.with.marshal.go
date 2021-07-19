@@ -1,5 +1,6 @@
 package main
 
+// https://golang.org/pkg/encoding/json/#Marshal
 import (
 	"encoding/json"
 	"fmt"
